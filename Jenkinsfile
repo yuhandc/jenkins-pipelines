@@ -13,6 +13,6 @@ pipeline {
   }
   environment {
     MY_NAME = 'Neo'
-    TEST_USER = credentials('Yuhan-Chandrawansa')
+    TEST_USER = credentials('admin')
   }
 }
