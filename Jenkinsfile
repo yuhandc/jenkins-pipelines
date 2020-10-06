@@ -9,6 +9,7 @@ pipeline {
         echo "${TEST_USER_PSW}"
       }
     }
+  }
 
   environment {
     MY_NAME = 'Neo'
