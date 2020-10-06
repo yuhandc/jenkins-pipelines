@@ -4,7 +4,7 @@ pipeline {
     stage('Say Hello') {
       steps {
         echo "Hello ${MY_NAME}!"
-        bat 'java -version'
+        sh 'java -version'
       }
     }
 
