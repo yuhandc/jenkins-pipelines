@@ -36,12 +36,6 @@ pipeline {
       }
     }
 
-    stage('Say Kernel') {
-      steps {
-        echo "${KERNEL_VERSION}"
-      }
-    }
-
   }
   environment {
     MY_NAME = 'Neo'
